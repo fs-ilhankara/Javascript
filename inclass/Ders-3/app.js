@@ -1,2 +1,2 @@
-console.log("I'm from outside")
-console.log("hello world")
+// console.log("I'm from outside")
+// console.log("hello world")
