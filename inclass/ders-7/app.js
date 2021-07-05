@@ -46,8 +46,9 @@ console.log("Outside function", myName);
  */
 
 
-let student = {};
-student.name = "Mark"
+/* let student = {};
+student.name = "Mark" */
+
 // console.log(student);
 
 /* function sayHi2(student) {
@@ -166,3 +167,81 @@ console.log(result); */
     }
     console.log("result: ", sum);
 })(4); */
+
+
+//-----Arrow Function-----\\
+/* 
+function add100(a) {
+    return a+ 100;
+}
+
+console.log(add100(1)); */
+
+/* 
+const arrow = (a) => {
+    return a + 100 ;
+}
+console.log(arrow(2));
+ */
+
+/* 
+const arrow = (a) => a + 100 ;
+
+console.log(arrow(2)); */
+
+
+
+/* const arrow = a => a + 100; 
+console.log(arrow(2)); */
+
+/* const user = "Mark"
+const sayHi = (userFirstName = "New User") => `Welcome ${userFirstName}`
+console.log(sayHi(user)); */
+
+
+// Zero division Error\\
+
+/* const div = (num1,num2) => num1 / num2;
+console.log(div(18,0)); */
+
+/* const div = (num1, num2) => {
+    if (num2 === 0) {
+        return "Zero Division"
+    }
+    return num1 / num2;
+}
+console.log(div(18,0)); */
+
+
+/* const div = (num1, num2) => num2 === 0 ? "Zero Division Error!" : num1 / num2
+console.log(div(18,0)); */
+
+/* 
+const calcArea = radius => 3.14 * radius**2;
+
+console.log(calcArea(5)); */
+
+// ---Thismethodu----\\
+/* 
+const cat = {
+    name: "Muezza",
+    age: 8,
+    whatName() {
+        return this.name
+    }
+};
+console.log(cat.whatName()); */
+
+// object return ederken \\
+/* 
+const car = () => {make :"Bmw"} // undefined
+
+const car = () => ({make :"Bmw"})
+
+console.log(car()); */
+
+// Arrow function iief kullanımı\\
+/* 
+const iief = (num => num +5)(10);
+console.log(iief); */
+
